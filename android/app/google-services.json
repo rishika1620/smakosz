@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "210021228317",
+    "project_id": "smakosz-ddd3b",
+    "storage_bucket": "smakosz-ddd3b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210021228317:android:e3917dfc94c8bf655b0bf4",
+        "android_client_info": {
+          "package_name": "com.example.smakosz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPlITFC6hIxCZ42uvXT2kRAqtIwQGoPeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
