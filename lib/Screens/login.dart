@@ -57,7 +57,7 @@ class _LoginState extends State<Login> {
                       begin: Alignment.topLeft,
                       end: Alignment.bottomRight,
                       colors: [
-                        Colors.white,
+                        Colors.grey, Colors.white10,
                   ])
                 ),
                 
@@ -68,7 +68,7 @@ class _LoginState extends State<Login> {
                 height: MediaQuery.of(context).size.height/1.5,
                 width: MediaQuery.of(context).size.width,
                 decoration: BoxDecoration(
-                  color: Colors.white,
+                  color: Colors.white70,
                   borderRadius: BorderRadius.only(topLeft: Radius.circular(40), topRight: Radius.circular(40)),
                 ),
                 child: Text(""),
@@ -79,7 +79,7 @@ class _LoginState extends State<Login> {
                   children: [
                     Center(child: ClipRRect(
                         borderRadius: BorderRadius.circular(20),
-                        child: Image.asset("assets/images/logo.png", width: MediaQuery.of(context).size.width/1.5, fit: BoxFit.cover,))),
+                        child: Image.asset("assets/images/logo.png", width: MediaQuery.of(context).size.width/1, fit: BoxFit.cover,))),
                     SizedBox(height: 50,),
                     Material(
                       elevation: 5,
@@ -124,7 +124,7 @@ class _LoginState extends State<Login> {
                                   focusedBorder:  OutlineInputBorder(
                                     borderRadius: BorderRadius.circular(10.0), // Rounded corners
                                     borderSide: BorderSide(
-                                      color: Colors.black, // Border color
+                                      color: Color(0xFFF2DDAC), // Border color
                                       width: 2.0,        // Border width
                                     ),
                                   ),
@@ -157,7 +157,7 @@ class _LoginState extends State<Login> {
                                   focusedBorder:  OutlineInputBorder(
                                     borderRadius: BorderRadius.circular(10.0), // Rounded corners
                                     borderSide: BorderSide(
-                                      color: Colors.black, // Border color
+                                      color: Color(0xFFF2DDAC), // Border color
                                       width: 2.0,        // Border width
                                     ),
                                   ),
@@ -224,10 +224,7 @@ class _LoginState extends State<Login> {
                     )
         
                   ],
-        
-        
                 ),
-        
               )
             ],
           ),

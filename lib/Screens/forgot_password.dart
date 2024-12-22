@@ -40,15 +40,15 @@ class _ForgotPasswordState extends State<ForgotPassword> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.white,
       body: Container(
         child: Column(
           children: [
-            SizedBox(height: 70,),
+            SizedBox(height: 170,),
             Container(
               alignment: Alignment.topCenter,
               child: Text("Password Recovery", style: TextStyle(
-                color: Colors.white,
+                color: Colors.black,
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
               ),),
@@ -59,11 +59,13 @@ class _ForgotPasswordState extends State<ForgotPassword> {
               margin: EdgeInsets.symmetric(horizontal: 40),
               padding: EdgeInsets.only(left: 20, bottom: 10),
               alignment: Alignment.topLeft,
-              child: Text("Enter your email", style: TextStyle(
-                color: Colors.white,
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-              ),),
+              child: Center(
+                child: Text("Enter your email", style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),),
+              ),
             ),
             
             Expanded(
@@ -77,7 +79,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                             margin: EdgeInsets.symmetric(horizontal: 40),
                             padding: EdgeInsets.only(left: 10) ,
                             decoration: BoxDecoration(
-                              border: Border.all(color: Colors.white, width: 2),
+                              border: Border.all(color: Colors.black, width: 2),
                               borderRadius: BorderRadius.circular(30),
                             ),
                             child: TextFormField(
@@ -89,7 +91,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                                 return null;
                               },
                               style: TextStyle(
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
 
                               decoration: InputDecoration(
@@ -100,7 +102,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                                 ),
                                 prefixIcon: Icon(
                                     Icons.email_rounded,
-                                  color: Colors.white,
+                                  color: Colors.black,
                                   size: 30.0,
                                 ),
                                 border: InputBorder.none,
@@ -123,12 +125,12 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                                     margin: EdgeInsets.symmetric(vertical: 10, horizontal: 40),
                                     padding: EdgeInsets.all(10),
                                     decoration: BoxDecoration(
-                                      color: Colors.white,
+                                      color: Colors.black,
                                       borderRadius: BorderRadius.circular(10),
                                     ),
                                     child: Center(
                                       child: Text("Send Email", style: TextStyle(
-                                        color: Colors.black,
+                                        color: Colors.white,
                                         fontSize: 16,
                                         fontWeight: FontWeight.bold,
                                       ),),
@@ -142,7 +144,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                               Text("Don't have an account?", style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.w400,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),),
                               SizedBox(width: 5,),
                               GestureDetector(

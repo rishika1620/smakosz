@@ -62,7 +62,7 @@ class _SignUpState extends State<SignUp> {
         }
         else if(e.code == 'email-already-in-use'){
           ScaffoldMessenger.of(context).showSnackBar((SnackBar(
-            backgroundColor: Colors.orangeAccent,
+            backgroundColor: Color(0xFFF2DDAC),
             content: Text("Account already exists", style: TextStyle(
             fontSize: 16,
 
@@ -89,7 +89,7 @@ class _SignUpState extends State<SignUp> {
                         begin: Alignment.topLeft,
                         end: Alignment.bottomRight,
                         colors: [
-                          Colors.orange, Colors.orangeAccent,
+                          Colors.grey, Colors.white10,
                         ])
                 ),
 
@@ -100,7 +100,7 @@ class _SignUpState extends State<SignUp> {
                 height: MediaQuery.of(context).size.height/1.5,
                 width: MediaQuery.of(context).size.width,
                 decoration: BoxDecoration(
-                  color: Colors.white,
+                  color: Colors.white70,
                   borderRadius: BorderRadius.only(topLeft: Radius.circular(40), topRight: Radius.circular(40)),
                 ),
                 child: Text(""),
@@ -109,7 +109,9 @@ class _SignUpState extends State<SignUp> {
                 margin: EdgeInsets.only(top: 60, left: 20, right: 20 ),
                 child: Column(
                   children: [
-                    Center(child: Image.asset("", width: MediaQuery.of(context).size.width/1.5, fit: BoxFit.cover,)),
+                    Center(child: ClipRRect(
+                        borderRadius: BorderRadius.circular(20),
+                        child: Image.asset("assets/images/logo.png", width: MediaQuery.of(context).size.width/1, fit: BoxFit.cover,))),
                     SizedBox(height: 50,),
                     Material(
                       elevation: 5,
@@ -147,14 +149,14 @@ class _SignUpState extends State<SignUp> {
                                   border: OutlineInputBorder(
                                     borderRadius: BorderRadius.circular(10.0), // Rounded corners
                                     borderSide: BorderSide(
-                                      color: Colors.orangeAccent, // Border color
+                                      color: Color(0xFFF2DDAC), // Border color
                                       width: 2.0,        // Border width
                                     ),
                                   ),
                                   focusedBorder:  OutlineInputBorder(
                                     borderRadius: BorderRadius.circular(10.0), // Rounded corners
                                     borderSide: BorderSide(
-                                      color: Colors.orangeAccent, // Border color
+                                      color: Color(0xFFF2DDAC), // Border color
                                       width: 2.0,        // Border width
                                     ),
                                   ),
@@ -179,14 +181,14 @@ class _SignUpState extends State<SignUp> {
                                   border: OutlineInputBorder(
                                     borderRadius: BorderRadius.circular(10.0), // Rounded corners
                                     borderSide: BorderSide(
-                                      color: Colors.orangeAccent, // Border color
+                                      color: Color(0xFFF2DDAC), // Border color
                                       width: 2.0,        // Border width
                                     ),
                                   ),
                                   focusedBorder:  OutlineInputBorder(
                                     borderRadius: BorderRadius.circular(10.0), // Rounded corners
                                     borderSide: BorderSide(
-                                      color: Colors.orangeAccent, // Border color
+                                      color: Color(0xFFF2DDAC), // Border color
                                       width: 2.0,        // Border width
                                     ),
                                   ),
@@ -212,14 +214,14 @@ class _SignUpState extends State<SignUp> {
                                   border: OutlineInputBorder(
                                     borderRadius: BorderRadius.circular(10.0), // Rounded corners
                                     borderSide: BorderSide(
-                                      color: Colors.orangeAccent, // Border color
+                                      color: Color(0xFFF2DDAC), // Border color
                                       width: 2.0,        // Border width
                                     ),
                                   ),
                                   focusedBorder:  OutlineInputBorder(
                                     borderRadius: BorderRadius.circular(10.0), // Rounded corners
                                     borderSide: BorderSide(
-                                      color: Colors.orangeAccent, // Border color
+                                      color: Color(0xFFF2DDAC), // Border color
                                       width: 2.0,        // Border width
                                     ),
                                   ),
@@ -244,12 +246,13 @@ class _SignUpState extends State<SignUp> {
                                     padding: EdgeInsets.symmetric(vertical: 8),
                                     width: 200,
                                     decoration: BoxDecoration(
-                                      color: Colors.orangeAccent,
+                                      color: Colors.black,
                                       borderRadius: BorderRadius.circular(20),
                                     ),
                                     child: Center(child: Text("SIGN UP", style:  TextStyle(
                                       fontSize: 17,
                                       fontWeight: FontWeight.bold,
+                                      color: Colors.white
                                     ),)),
                                   ),
                                 ),
@@ -272,10 +275,7 @@ class _SignUpState extends State<SignUp> {
                     )
 
                   ],
-
-
                 ),
-
               )
             ],
           ),
