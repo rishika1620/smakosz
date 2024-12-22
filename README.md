@@ -1,16 +1,24 @@
-# smakosz
+# Smakosz - A Food Delivery App 
+Smakosz is an e-commerce mobile application developed using the Flutter framework, designed to provide a seamless and user-friendly food delivery experience. Built with Dart as the primary programming language, the app leverages Firebase for database management and Cloudinary for media storage. Payment processing is seamlessly integrated using the Stripe API.
 
-A new Flutter project.
+**Key Features:**
 
-## Getting Started
+**User Authentication:** Secure Signup and Login functionality powered by Firebase Authentication.
 
-This project is a starting point for a Flutter application.
+**Interactive User Interface:** Engaging and intuitive design for effortless navigation.
 
-A few resources to get you started if this is your first Flutter project:
+**Cart Functionality:** Allows users to add items to a cart for streamlined future ordering.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Wallet Integration:** Simplified payment processing through a wallet feature using Stripe API.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Smakosz exemplifies a modern approach to mobile app development, combining cutting-edge technologies to deliver a reliable and feature-rich platform for food delivery.
+
+## Screenshots
+
+<img src = "https://github.com/user-attachments/assets/98fd6d35-95e6-4d29-969a-ca16629b853f" width = "300" height = "600"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src = "https://github.com/user-attachments/assets/db68f021-07a4-4990-a148-6b1dfe857c91" width = "300" height = "600"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src = "https://github.com/user-attachments/assets/a6aea823-a985-4e40-bfb3-1ca7f7345c2a" width = "300" height = "600"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src = "https://github.com/user-attachments/assets/c0db1f57-37a3-45cb-9a27-2be6eca785c0" width = "300" height = "600"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src = "https://github.com/user-attachments/assets/feff261e-6bbc-4762-a0aa-a14f9f35fca5" width = "300" height = "600"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src = "https://github.com/user-attachments/assets/b26267a6-0533-4226-86a8-f2c090a7fd4a" width = "300" height = "600"/>
