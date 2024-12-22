@@ -13,15 +13,11 @@ Smakosz is an e-commerce mobile application developed using the Flutter framewor
 
 Smakosz exemplifies a modern approach to mobile app development, combining cutting-edge technologies to deliver a reliable and feature-rich platform for food delivery.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![1](https://github.com/user-attachments/assets/98fd6d35-95e6-4d29-969a-ca16629b853f)
+![2](https://github.com/user-attachments/assets/db68f021-07a4-4990-a148-6b1dfe857c91)
+![3](https://github.com/user-attachments/assets/a6aea823-a985-4e40-bfb3-1ca7f7345c2a)
+![4](https://github.com/user-attachments/assets/c0db1f57-37a3-45cb-9a27-2be6eca785c0)
+![5](https://github.com/user-attachments/assets/feff261e-6bbc-4762-a0aa-a14f9f35fca5)
+![6](https://github.com/user-attachments/assets/b26267a6-0533-4226-86a8-f2c090a7fd4a)
