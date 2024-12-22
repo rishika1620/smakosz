@@ -1,7 +1,7 @@
 # smakosz - A Food Delivery App 
 Smakosz is an e-commerce mobile application developed using the Flutter framework, designed to provide a seamless and user-friendly food delivery experience. Built with Dart as the primary programming language, the app leverages Firebase for database management and Cloudinary for media storage. Payment processing is seamlessly integrated using the Stripe API.
 
-# Key Features:
+Key Features:
 User Authentication: Secure Signup and Login functionality powered by Firebase Authentication.
 Interactive User Interface: Engaging and intuitive design for effortless navigation.
 Cart Functionality: Allows users to add items to a cart for streamlined future ordering.
